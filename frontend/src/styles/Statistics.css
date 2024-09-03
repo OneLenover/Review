@@ -1,0 +1,121 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20%;
+}
+
+  .left1 {
+    position: relative;
+    margin-top: 1%;
+    margin-right: 20px; 
+  }
+
+  .left2 {
+    position: relative;
+    margin-top: 1%;
+    display: inline-block;
+     margin-right: 20px; 
+  }
+
+  .left3 {
+    position: relative;
+    margin-top: 1%;
+    display: inline-block;
+  }
+  .left4 {
+    position: relative;
+    display: block;
+  }
+
+  .left1, .left2, .left3 {
+    margin-bottom: 2%;
+}
+  .top-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1%;
+}
+.card-conteiner{
+    border: '1px solid #e0e0e0';
+    border-radius: 10px;
+    padding: 20px;
+    width: 14vw;
+    height: 34vh;
+    text-align: center;
+    background-color: #fff;
+}
+.card-conteiner1{
+    font-size: 1.7vw;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.check_mark{
+    color: #007bff;
+}
+.check_mark2{
+    color: #F49981;
+}
+.card-conteiner2{
+    font-size: 2vw;
+    margin-bottom: 29px;
+}
+.text-card{
+    font-size: 1.1vw;
+     color: #5A5A65;
+}
+.card-line{
+    margin-top: 1.7vw;
+    height: 38%;
+    width: 100%;
+    padding: 0;
+}
+.DonutChart-conteiner{
+    width: 30vw;
+    height: 34vh;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+.text-DonutChart{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2vw;
+}
+.DonutChart-conteiner1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.DonutChart-conteiner2{
+   margin-left: 20px;
+   list-style-type: none;
+   padding: 0;
+   display: 'inline-block'
+}
+ @media screen and (min-width:1024px) and (max-width: 1300px){
+    .dashboard{
+        margin-left: 32%;
+    } 
+    .card-conteiner{
+        width: 12vw;
+        height: 25vh;
+        padding: 10px;
+    }
+    .card-conteiner1{
+        margin-bottom: 5x;
+        margin-top: 5px;  
+    }
+    .card-conteiner2{
+        margin-bottom: 20px;
+    }
+    .DonutChart-conteiner{
+        width: 25vw;
+        height: 30vh;
+        padding: 10px;
+    }
+    .text-DonutChart{
+        margin-bottom: 5px;       
+    }
+}  

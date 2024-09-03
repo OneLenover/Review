@@ -1,0 +1,114 @@
+.main-container-check-request{
+    width: 70vw;
+    float: right;
+    padding: 3%;
+    padding-top: 0;
+}
+.topic-title-request{
+font-size: 2.5vw;
+font-family: 'Open Sans';
+font-weight: bold;
+color: #626275;
+margin-left: 35%;
+margin-top: 0;
+position: relative;
+padding-top: 6%;
+}
+.left-check-request {
+    width: 34vw;
+    float: left;
+    background-color: #fff;
+    position: relative;
+    height: auto;
+    margin-top:5%; 
+    border-radius: 10px;
+  }
+  .right-check-request {
+    width: 34vw;
+    float: right;
+    background-color: #fff;
+    position: relative;
+    height: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+  }
+  .title-left-column{
+    background-color: #5D60E1;
+    width: 100%;
+    height: 7%;
+    font-size: 1.3vw;
+    font-family: 'Open Sans';
+    font-weight: regular;
+    color: #fff;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+  }
+  .title-right-column{
+    background-color: #938FEC;
+    width: 100%;
+    height: 7%;
+    font-size: 1.3vw;
+    font-family: 'Open Sans';
+    font-weight: regular;
+    color: #fff;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+  }
+.body-left{
+    font-size: 1vw;
+    font-family: 'Open Sans';
+    font-weight: regular;
+    color: #626275;
+    padding-left: 20px;
+}
+.text-appeal-request{
+    background-color: #E9EFFF;
+    width: 80%;
+    height: 200px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px;
+    font-size: 1vw;
+    color: #9D9D9D;
+}
+@media screen and (min-width: 1024px) and (max-width: 1100px){
+  .left-check-request{
+    margin-left: 12%;
+    width: 30vw;
+  }
+  .right-check-request{
+    width: 30vw;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1210px){
+  .left-check-request{
+    margin-left: 8%;
+    width: 30vw;
+  }
+  .right-check-request{
+    width: 30vw;
+  }
+}
+@media screen and (min-width: 1210px) and (max-width: 1310px){
+  .left-check-request{
+    margin-left: 5%;
+    width: 30vw;
+  }
+  .right-check-request{
+    width: 30vw;
+  }
+}
+@media screen and (min-width: 1310px) and (max-width: 1400px){
+  .left-check-request{
+    margin-left: 2%;
+    width: 30vw;
+  }
+  .right-check-request{
+    width: 30vw;
+  }
+}

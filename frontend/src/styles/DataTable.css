@@ -1,0 +1,149 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+.custom-table-name {
+    position: relative;
+    text-align: left;
+    font-size: 2vw;
+    color: #3E7EFB;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+.custom-icon-button {
+    position: relative;
+    margin-left: 20px; 
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-top: -7%;
+}
+
+.custom-icon-button .icon {
+    color: #6B6B6B;
+}
+
+.custom-icon-button:hover .icon,
+.custom-icon-button:focus .icon {
+    color: #434DE5; 
+}
+
+.custom-search-icon {
+    margin-left: 20px; /* Отступ между иконками */
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-top: -7%;
+}
+
+ .custom-search-icon-link{
+    margin-top: -13%;
+}
+
+.custom-search-icon .icon {
+    color: #6B6B6B; /* Цвет иконки по умолчанию */
+}
+
+.custom-search-icon:hover .icon,
+.custom-search-icon:focus .icon {
+    color: #434DE5; /* Цвет иконки при активном состоянии */
+}
+
+.custom-search-input {
+    flex-grow: 1;
+    margin-top: 0;
+    width: 25vw;
+    height: 35px;
+    font-family: 'Open Sans';
+    font-size: 1vw;
+    color: #97A1B4;
+    border: 1px solid #97A1B4;
+    box-sizing: border-box; 
+    border-radius: 20px;
+    padding-left: 2%;
+    position: absolute;
+}
+
+.custom-search-button {
+    background-color: #6C9EFF;
+    border: 1px solid #6C9EFF;
+    color: white;
+    border-radius: 20px;
+    font-size: 1vw;
+    width: 5vw;
+    height: 35px;
+    font-family: 'Open Sans';
+    font-weight: regular;
+    box-sizing: border-box;
+    align-self: flex-start; 
+    cursor: pointer;
+    margin-left: 38%;
+    position: absolute;
+}
+
+.custom-search-button:hover {
+    background-color: #7272FF;
+}
+
+.custom-data-table {
+    width: 90%;
+}
+
+/* Стили для заголовков столбцов */
+.custom-table-header {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    color: #626275;
+}
+
+/* Стили для ячеек с датой и отправителем */
+.custom-date-cell,
+.custom-name-cell {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Open Sans';
+    color: #5A5A65;
+}
+
+.custom-action-button {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    color: #5A5A65;
+}
+
+
+
+.custom-action-button:hover {
+    background-color: #f0f0f0;
+}
+
+.data-section {
+    margin-top: 15%; 
+    border-radius: 10px;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+@media screen and (max-width:1300px){
+    .custom-search-button{
+        margin-left: 40%;
+    }
+}

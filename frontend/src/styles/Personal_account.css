@@ -1,0 +1,125 @@
+.personal-account-container{
+    background-color: #F5F6FA;
+    width: 90%;
+    height: 100%;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #000000; 
+    margin: 0;
+    margin-right: 30%;
+}
+
+.nav-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-menu::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100vw - 350px);
+    height: 100vh;
+    background-color: #F5F6FA;
+    z-index: -1;
+}
+
+.nav-menu-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+}
+
+.nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color: #97A1B4;
+    font-size: 1vw;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px;
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    justify-content: flex-start;
+}
+
+
+.nav-text span {
+    margin-left: 19px; 
+}
+
+.nav-text a:hover {
+    background-color: #F3F7FF;
+    color: #3E7EFB;
+}
+
+.nav-menu-items svg {
+    width: 24px;
+    height: 24px;
+}
+
+.nav-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 40%;
+}
+
+.nav-image img {
+    width: 55%; 
+    height: 100%;
+}
+
+.content-p {
+    margin-left: 350px;
+    width: calc(100% - 350px);
+    padding: 20px;
+}
+.nav-menu-items li {
+    margin-bottom: 10px;
+}
+@media screen and (min-width:1900px) {
+    .nav-image{
+        margin-right: 55%;
+    }
+    .logo {
+        margin-right: 45%;
+    }
+}

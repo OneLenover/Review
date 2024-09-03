@@ -1,0 +1,93 @@
+.application-background {
+  background-color: #D3DEFE;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+.body11 {
+  width: 100vw;
+  height: 100vh;
+}
+.login {
+  position: absolute;  
+  margin-left: 5%;
+  margin-top: 2%;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.title-login {
+font-family: 'Open Sans';
+  position: absolute; 
+  color: #000000;
+  font-size: 2vw;
+  font-weight: bold;
+  margin-left: 17%;
+  margin-top: 10%;
+}
+.input-login {
+display: block;
+border-radius: 60px;
+font-family: 'Open Sans';
+font-size: 1.5vw;
+color: #9D9A93;
+background-color: #FFFFFF;
+border: 2px solid #c7c7c7;
+width: 30vw;
+height: 6vh; 
+outline: none;
+padding-left: 14px;
+margin-bottom: 40px;
+} 
+ .form1 {
+position: absolute;
+width: 100%;
+margin-top: 35%;
+margin-left: 5%;
+} 
+.Vxod {
+  font-family: 'Open Sans';
+  font-size: 2vw;
+  font-weight: bold;
+  background-color: #83ADF2;
+  border-radius: 60px;
+  color: #FFFFFF;
+  border: none;
+  width: 20vw;
+  height: 7vh;
+  position: absolute;
+  cursor: pointer;
+  margin-left: 17%;
+  margin-top: 7%;
+}
+
+.div-login{
+  position: absolute;
+  width: 70%;
+  height: 80%;
+  border-radius: 50px;
+  font-family: 'Open Sans';
+  padding: 3%;
+  margin: 3.5% 12%;
+  background: linear-gradient(to right, #E8EEFF 50%, #FFFFFF 50%);
+}
+.div_right-login{
+  float: right;
+  position: relative;
+  width: 50%;
+  padding-top: 7%;
+}
+.div_left-login{
+  float: left;
+  position: relative;
+  width: 50%;
+  margin-top: 11%;
+  margin-left: 5%;
+}
+.login_man{
+  width: 80%;
+  height: 60%;
+}

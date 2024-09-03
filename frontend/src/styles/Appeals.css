@@ -1,0 +1,63 @@
+body {
+}
+.image-button1 {
+    width: 350px;
+    height: 440px;
+    position: absolute;
+    border-radius: 20px;
+    border-color: #9D9A93;
+    background-color: #FFFFFF;
+    margin-top: 15%;
+    margin-left: 10%;
+    color: #000000;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.image-button2 {
+    width: 350px;
+    height: 440px;
+    position: absolute;
+    border-radius: 20px;
+    border-color: #9D9A93;
+    background-color: #FFFFFF;
+    margin-top: 15%;
+    margin-left: 40%;
+    color: #000000;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.image-button3 {
+    width: 350px;
+    height: 440px;
+    position: absolute;
+    border-radius: 20px;
+    border-color: #9D9A93;
+    background-color: #FFFFFF;
+    margin-top: 15%;
+    margin-left: 70%;
+    color: #000000;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button-statistics {
+    font-family: Montserra;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 60px;
+    border: 1px solid #000000;
+    margin-left: 80%;
+    height: 33px;
+    width: 160px;
+    cursor: pointer;
+}

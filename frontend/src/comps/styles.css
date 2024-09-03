@@ -1,0 +1,43 @@
+.input-file-container {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-top: 30%;
+    width: 40%;
+    position: absolute;
+}
+
+.file-upload-container {
+    display: flex;
+    align-items: center;
+}
+
+.file-upload-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.input-file-icon {
+    font-size: 3vw; 
+    margin-left: 8px; 
+}
+
+.input-file-element {
+    display: none; 
+}
+
+.input-file-info {
+    margin-top: 2px;
+    font-size: 1.1vw;
+}
+.delete-icon{
+    cursor: pointer;
+}
+@media screen and (min-width:1024px) and (max-width:1350px){
+    .input-file-info{
+        font-size: 0.8vw;
+        margin-top: 5px;
+        margin-right: 10%;
+    } 
+}

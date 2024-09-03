@@ -1,0 +1,20 @@
+.category-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px; 
+    border-bottom: 1px solid #ccc; 
+}
+
+.category-links a {
+    margin: 0 10px; 
+    text-decoration: none;
+    color: #5A5A65;
+    cursor: pointer;
+    padding-bottom: 10px; 
+}
+
+.category-links a.active-category {
+    font-weight: bold;
+}

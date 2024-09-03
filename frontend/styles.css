@@ -1,0 +1,38 @@
+.input-file-container {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.input-file-label {
+    position: relative;
+    width: 250px;
+    height: 35px;
+    padding: 10px;
+    background-color: #8CC8FF;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.input-file-element {
+position: absolute;
+top: 0;
+left: 0;
+width: 0;
+height: 0;
+opacity: 0;
+}
+.input-file-placeholder {
+    font-size: 20px;
+    color: #fff;
+    font-family: Open Sans;
+    font-weight: bold;
+    padding: 10px;
+}
+.input-file-info {
+    margin-top: 6px;
+    width: 100%;
+    background-position: no-repeat;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
